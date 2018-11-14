@@ -1,3 +1,4 @@
+---
 attack_technique: T1033
 display_name: System Owner/User Discovery
 
@@ -12,7 +13,7 @@ atomic_tests:
   input_arguments:
     computer_name:
       description: Name of remote computer
-      type: strong
+      type: string
       default: computer1
 
   executor:
